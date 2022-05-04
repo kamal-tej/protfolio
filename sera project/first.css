@@ -152,11 +152,36 @@ progress{
   font-size: 35px;
   color: #0999d6;
 }
+.fa-js-square{
+  font-size: 35px;
+  color: #ffcc00;
+}
+.fa-database{
+  font-size: 35px;
+}
+.fa-file-invoice-dollar{
+  font-size: 35px;
+  color:#eb4934;
+}
 .certificates{
   margin-left: 21%;
 }
 .carosol{
   margin-left: 1%;
+}
+
+/*Projects*/
+.project{
+    margin-left: 21%;
+}
+#rero{
+  font-size: 45px;
+}
+#colorguess{
+  font-size: 45px;
+}
+.introduction{
+  font-size: 25px;
 }
 
 /*Contact*/
@@ -166,41 +191,17 @@ progress{
   height: 760px;
   background-image: url("map.png");
 }
-#cont{
-  margin-left: 30%;
-  color: white;
-  font-family: sans-serif;
-}
-/*label{
-  width:250px;
-  height:100px;
-}*/
-input{
-  margin-bottom:2%;
-  padding-bottom: 10px;
+#name,#message,#mail,#phone{
   padding-top: 10px;
+  padding-bottom: 10px;
 }
-#name{
-  display: inline-block;
+#cont{
+  color: white;
 }
-.message{
-  display: inline-block;
-  float: right;
-  margin-right: 20%;
-}
-input.message{
-  padding-bottom: 155px;
-}
-#but{
-  width: 100px;
-  margin-left: 35%;
-}
-
 .container{
-   /*display: inline;*/
   width: 55%;
-  
-} 
+
+}
 /*.PY{
   width: 50%;
 }
@@ -239,19 +240,29 @@ input.message{
   margin-left: 25%;
   color:orange;
   font-family: serif;
+  font-weight: bold;
 }
 #GOOGLE{
   margin-left: 25%;
   color:skyblue;
   font-family: serif;
+  font-weight: bold;
 }
 #WEB{
   margin-left: 25%;
   color:purple;
   font-family: serif;
+  font-weight: bold;
 }
-
-
-
-
-
+#COREJAVA{
+  margin-left: 25%;
+  color:brown;
+  font-family: serif;
+  font-weight: bold;
+}
+#SQL{
+  margin-left: 25%;
+  color:RED;
+  font-family: serif;
+  font-weight: bold;
+}
